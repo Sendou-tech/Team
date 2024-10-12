@@ -1,0 +1,137 @@
+
+body{
+    margin: 50px 50px 0px 50px;
+    background-color: antiquewhite;
+}
+#title{
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.core-members{
+    position: static;
+    margin: 25px;
+}
+
+.unique{
+    display: inline-block; 
+    text-align: center; 
+    width: 45%;
+    margin: 15px;
+}
+
+
+.img-round{
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+}
+
+.unique p{
+    width: 100%;
+    text-align: justify;
+
+}
+
+.u2
+{
+    position: relative;
+    left: 50px;
+}
+
+section{
+    display: block;
+    margin: 30px;
+}
+section > div{
+    display: inline-block;
+}
+
+.card-image
+{
+    text-align: center;
+}
+
+.matter{
+    text-wrap: balance;
+    width: 80%;
+    position: relative;
+    padding: 25px;
+    bottom: 15px;
+    text-align: justify;
+}
+
+.card{
+    padding: 15px;
+    margin-top: 25px;
+}
+
+.card-blocks-1{
+    border: 10px double goldenrod;
+    box-shadow: goldenrod 10px -10px;
+}
+.card-blocks-2{
+    border: 10px double goldenrod;
+    box-shadow: goldenrod -10px 10px;
+}
+.card-blocks-3{
+    border: 10px double goldenrod;
+    box-shadow: goldenrod -10px -10px;
+}
+.card-blocks-4{
+    border: 10px double goldenrod;
+    box-shadow: goldenrod 10px 10px;
+}
+
+.img-box{
+    text-align: center;
+    border-radius: 10% ;
+}
+
+.card-title{
+    font-family: "Dancing Script", cursive;
+    font-weight: bold;
+    font-size: 20px;
+    color: tomato;
+}
+.card-text{
+    font-size: 15px;
+    font-family: "Caveat ", cursive;
+    font-weight: 500;
+    font-style: normal;
+}
+.card-quotes{
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-style: italic; 
+    font-size: 15px;  
+    
+}
+
+footer
+{
+    display: block;
+    font-size: 25px;
+    text-align: right;
+    margin-top: 50px ;
+}
+
+@media (max-width: 680px){
+
+    .card-image
+    {
+        width: 100%;
+        text-align: center;
+    }
+
+    .u2
+    {
+        position: static;
+    }
+}
